@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Вітрина філософії</title>
+    <link rel="stylesheet" href="styles/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+            <h1>Вітрина філософії</h1>
+        </nav>
+    </header>
+
+    <section id="vitrina1" class="vitrina">
+        <h2>Філософські течії</h2>
+        <div class="items">
+            <div class="item">Екзистенціалізм</div>
+            <div class="item">Стоїцизм</div>
+            <div class="item">Нігілізм</div>
+        </div>
+    </section>
+
+    <section id="vitrina2" class="vitrina interactive">
+        <h2>Видатні філософи</h2>
+        <div class="items">
+            <div class="item interactive-item">Сократ</div>
+            <div class="item interactive-item">Платон</div>
+            <div class="item interactive-item">Фрідріх Ніцше</div>
+        </div>
+    </section>
+
+    <section id="vitrina3" class="vitrina">
+        <h2>Ключові книги</h2>
+        <div class="items">
+            <div class="item">"Буття і Ніщо" - Жан-Поль Сартр</div>
+            <div class="item">"Медитації" - Марк Аврелій</div>
+            <div class="item">"Так говорив Заратустра" - Фрідріх Ніцше</div>
+        </div>
+        <button id="add-item-button">Додати книгу</button>
+    </section>
+    
+    <div id="add-book-modal" class="modal">
+        <div class="modal-content">
+            <span class="close-button">&times;</span>
+            <h2>Додати нову книгу</h2>
+            <input type="text" id="book-title" placeholder="Назва книги">
+            <button id="submit-book">Додати</button>
+        </div>
+    </div>
+    
+    <footer>
+        <p>&copy; 2024 Вітрина філософії</p>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="scripts/script.js"></script>
+</body>
+</html>
